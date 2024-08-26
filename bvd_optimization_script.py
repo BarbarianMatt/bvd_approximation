@@ -74,7 +74,7 @@ def genetic_algorithm_approximation(freq,measured_impedance,rlc_num):
     bounds += [(-17, -1),(-11, 5),(-17, -1)] * rlc_num
 
     pop_size=80
-    max_iter=5e4
+    max_iter=5e3
     tolerance=1e-7
 
     omega = 2 * np.pi * freq
